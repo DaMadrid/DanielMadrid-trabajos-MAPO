@@ -1,0 +1,148 @@
+namespace ConsoleApp1
+{
+    interface IHabilidad
+    {
+        void mover();
+    }
+    class Persona
+    {
+        private string name;
+        private int edad;
+        private bool genero;
+        public IHabilidad habilidad;
+
+        public string Name
+        {
+            get
+            {
+                return this.name;
+            }
+            set
+            {
+                this.name = value;
+            }
+        }
+        public int Edad
+        {
+            get
+            {
+                return this.edad;
+            }
+            set
+            {
+                this.edad = value;
+            }
+        }
+       
+        public bool Genero
+        {
+            get
+            {
+                return this.genero;
+            }
+            set
+            {
+                this.genero = value;
+            }
+        }
+        public void respirar() { }
+
+
+        public Persona(string nombre,int Edad,bool Genero,IHabilidad habilidades)
+        {
+            this.habilidad=habilidades ;
+            this.name = nombre;
+            this.edad = Edad;
+            this.genero = Genero;
+        }
+       
+      
+    }
+  
+    class Brazos:IHabilidad
+    {
+        public void mover() { }
+    }
+    class Piernas: IHabilidad
+    {
+        public void mover() { }
+    }
+    class Manos: IHabilidad
+    {
+        public void mover() { }
+    }
+    class Estudiante : Persona
+    {
+        private int matricula;
+        private string carrera;
+        public string Carrera
+        {
+            get
+            {
+                return this.carrera;
+            }
+            set
+            {
+                this.carrera = value;
+            }
+        }
+        public int Matricula
+        {
+            get
+            {
+                return this.matricula;
+            }
+            set
+            {
+                this.matricula = value;
+            }
+        }
+        public Estudiante(string nombre, int Edad, bool Genero, IHabilidad habilidades, string carrera, int matricula): base(nombre,Edad,Genero,habilidades)
+        {
+            this.matricula = matricula;
+            this.carrera = carrera;
+        }
+    }
+
+    class Cocinero : Persona
+    {
+        private string  posicion;
+       
+        public string Posicion
+        {
+            get
+            {
+                return this.posicion;
+            }
+            set
+            {
+                this.posicion = value;
+            }
+        }
+        
+        public Cocinero(string nombre, int Edad, bool Genero, IHabilidad habilidades, string posicion): base(nombre,Edad,Genero,habilidades)
+        {
+            this.posicion = posicion;
+        }
+    }
+    class Discapacitado : Persona
+    {
+        private string discapacidad;
+        public string Discapacidad
+        {
+            get
+            {
+                return this.Discapacidad;
+            }
+            set
+            {
+                this.discapacidad = value;
+            }
+        }
+        public Discapacitado(string nombre, int Edad, bool Genero, IHabilidad habilidades, string discapacidad ): base(nombre,Edad,Genero,habilidades)
+        {
+            this.discapacidad = discapacidad;
+        }
+    }
+    
+}

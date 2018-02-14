@@ -12,5 +12,6 @@ namespace _180213_practica
         string getDireccion();
         int getId();
         void Update(paquete paquete);
+        void Pedido(int peso, ISujeto prov);
     }
 }

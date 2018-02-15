@@ -41,14 +41,7 @@ namespace _180213_practica
             Juan.Pedido(4,CDM);
 
          
-            dHL.MesurementChange();
-            dHL.MesurementChange();
-
-            fedex.MesurementChange();
-            fedex.MesurementChange();
-
-            CDM.MesurementChange();
-            CDM.MesurementChange();
+            Console.ReadLine();
         }
     }
 }

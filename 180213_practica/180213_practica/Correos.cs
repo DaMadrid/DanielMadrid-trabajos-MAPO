@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Timers;
 
 namespace _180213_practica
 {
@@ -12,7 +13,21 @@ namespace _180213_practica
         public List<IObservador> subscriptores = new List<IObservador>();
         public List<paquete> Ordenes = new List<paquete>();
 
+        Timer timer;
+       
+        public Correos() {
 
+            timer = new Timer(10000); 
+            timer.Start();
+            timer.Elapsed += Timer_Elapsed;
+        }
+
+        private void Timer_Elapsed(object sender, ElapsedEventArgs e)
+        {
+           
+            MesurementChange();
+           // throw new NotImplementedException();
+}
 
         public void Orden(int Cid, string dir, string nombre, int peso, string prov)
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _180320_actividad
 {
-    class Sumoner
+    class Summoner
     {
         ICommand commando;
         public void SetCommand(ICommand command) {

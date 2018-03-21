@@ -21,7 +21,7 @@ namespace _180320_actividad
             var Bon = new onB(UnaBocina);
             var Bof = new onB(UnaBocina);
 
-           Sumoner Controler = new Sumoner();
+           Summoner Controler = new Summoner();
 
             Controler.SetCommand(LN);
             Controler.dosomething();

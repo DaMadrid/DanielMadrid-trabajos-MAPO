@@ -8,18 +8,11 @@ namespace _180404_actividad_faccade
 {
     class Faccade
     {
-        VHS Vhs;
-        VHS_rewinder Vhs_r;
-        Bocinas Bocinas;
-        TV Tv;
-        Luces LUces;
-        public Faccade (VHS vhs,VHS_rewinder rewinder,Bocinas bocinas,TV tv,Luces luces){
-            this.Vhs = vhs;
-            this.Vhs_r = rewinder;
-            this.Bocinas = bocinas;
-            this.Tv = tv;
-            this.LUces = luces;
-        }
+        VHS Vhs =new VHS();
+        VHS_rewinder Vhs_r=new VHS_rewinder();
+        Bocinas Bocinas = new Bocinas();
+        TV Tv = new TV();
+        Luces LUces = new Luces();
         public void WatchVHS() {
             Tv.On();
             Bocinas.On();

@@ -10,12 +10,7 @@ namespace _180404_actividad_faccade
     {
         static void Main(string[] args)
         {
-            var bocina = new Bocinas();
-            var tv = new TV();
-            var vhs = new VHS();
-            var vhsr = new VHS_rewinder();
-            var luz = new Luces();
-            var faccade = new Faccade(vhs,vhsr,bocina,tv,luz);
+            var faccade = new Faccade();
             faccade.WatchVHS();
             
             faccade.Shutoff();

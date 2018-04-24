@@ -1,0 +1,15 @@
+C:\Users\MADRI\source\repos\180418_actividadMVC\180418_actividadMVC\obj\Debug\180418_actividadMVC.csprojResolveAssemblyReference.cache
+C:\Users\MADRI\source\repos\180418_actividadMVC\180418_actividadMVC\obj\Debug\MainWindow.g.cs
+C:\Users\MADRI\source\repos\180418_actividadMVC\180418_actividadMVC\obj\Debug\App.g.cs
+C:\Users\MADRI\source\repos\180418_actividadMVC\180418_actividadMVC\obj\Debug\180418_actividadMVC_MarkupCompile.cache
+C:\Users\MADRI\source\repos\180418_actividadMVC\180418_actividadMVC\obj\Debug\180418_actividadMVC_MarkupCompile.lref
+C:\Users\MADRI\source\repos\180418_actividadMVC\180418_actividadMVC\bin\Debug\180418_actividadMVC.exe.config
+C:\Users\MADRI\source\repos\180418_actividadMVC\180418_actividadMVC\bin\Debug\180418_actividadMVC.exe
+C:\Users\MADRI\source\repos\180418_actividadMVC\180418_actividadMVC\bin\Debug\180418_actividadMVC.pdb
+C:\Users\MADRI\source\repos\180418_actividadMVC\180418_actividadMVC\obj\Debug\MainWindow.baml
+C:\Users\MADRI\source\repos\180418_actividadMVC\180418_actividadMVC\obj\Debug\180418_actividadMVC.g.resources
+C:\Users\MADRI\source\repos\180418_actividadMVC\180418_actividadMVC\obj\Debug\_180418_actividadMVC.Properties.Resources.resources
+C:\Users\MADRI\source\repos\180418_actividadMVC\180418_actividadMVC\obj\Debug\180418_actividadMVC.csproj.GenerateResource.Cache
+C:\Users\MADRI\source\repos\180418_actividadMVC\180418_actividadMVC\obj\Debug\180418_actividadMVC.csproj.CoreCompileInputs.cache
+C:\Users\MADRI\source\repos\180418_actividadMVC\180418_actividadMVC\obj\Debug\180418_actividadMVC.exe
+C:\Users\MADRI\source\repos\180418_actividadMVC\180418_actividadMVC\obj\Debug\180418_actividadMVC.pdb
